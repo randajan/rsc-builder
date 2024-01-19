@@ -7,10 +7,13 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "exports": {
-    ".": "./dist/index.js",
-    "./RSCX": "./dist/RSCX.js"
+    ".": "./dist/index.js"
   },
   "license": "MIT",
+  "scripts": {
+    "start": "set NODE_ENV=dev&& node ./index.js",
+    "build": "set NODE_ENV=prod&& node ./index.js"
+  },
   "dependencies": {
     "app-root-path": "^3.1.0",
     "chokidar": "^3.5.3",
@@ -35,5 +38,8 @@
     "name": "Jan Randa",
     "email": "jnranda@gmail.com",
     "url": "https://www.linkedin.com/in/randajan/"
+  },
+  "devDependencies": {
+    "@randajan/simple-lib": "^2.1.4"
   }
 }
