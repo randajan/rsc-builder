@@ -31,5 +31,7 @@ export const RSCbuild = ({live, version, entries, srcDir="src", distDir="dist"})
 
 }
 
+export default RSCbuild;
+
 
 

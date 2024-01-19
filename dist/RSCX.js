@@ -1,7 +1,6 @@
 import fse from "fs-extra";
 import path from "path";
 
-
 export class RSCX {
 
     static escapeScript(script) {
