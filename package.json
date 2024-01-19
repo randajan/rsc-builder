@@ -1,6 +1,6 @@
 {
   "name": "@randajan/rsc-builder",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A easy to use utility library for MikroTik script development with bundling capabilities.",
   "repository": "randajan/rsc-builder",
   "type": "module",
