@@ -6,7 +6,7 @@ import fse from "fs-extra";
 import path from "path";
 var RSCX = class {
   static escapeScript(script) {
-    return JSON.stringify(script).slice(1, -1);
+    return JSON.stringify(script).slice(1, -1).replace(/\$/g, "\\$");
   }
   static create(pathname) {
     return new RSCX(pathname);
